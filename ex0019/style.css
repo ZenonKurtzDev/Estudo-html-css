@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+ Em html é id em css é # (só pode um elemento mas pode misturar  a com classe )
+ 
+ Em html é class em css é .ponto (pode vários elementos)
+
+
+*/
+
+
+body{
+    background-color: rgba(181, 243, 163, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    color:  rgb(68, 109, 3);
+}
+
+
+h1#principal{
+    text-align: center;
+    background-color:rgb(67, 107, 1) ;
+    color: white
+}
+
+
+h2{
+    color:  rgb(69, 109, 3);
+}
+
+.basico{
+    color:  rgb(3, 109, 95);
+}
+
+.intermediario{
+    color:  rgb(194, 181, 6);
+}
+
+.avancado{
+    color:  rgb(109, 7, 3);
+}
+
+.destaque{
+    background-color: rgba(210, 207, 30, 0.575);
+}
