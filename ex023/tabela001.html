@@ -5,9 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+
+    <STYle>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+      
+        table{
+            width: 400px; /*Deixa a tabela quadrada*/
+            height: 400px;/*Deixa a tabela quadrada*/
+            border-collapse:collapse ;
+            
+
+        }
+
+        
+    td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;/*Alinhamento horizontal*/
+        vertical-align: middle;/*Alinhamento vertical*/
+    }
+
+    .numero{
+        text-align: right; /*Alinha para direita como se fosse números*/
+    }
+    
+    </STYle>
+     
+
+     
+       
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
-    <table></table>
+
+    <!----
+        Hierarquia de tabela (simples)
+        TABELA= Tabela <tb>
+        TABELA Row= linha da tabela
+        TABLE DATA  <td>= dado da tabela     
+        
+        
+        ---->
+    <table>
+        <tr><!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>       
+        
+        
+        
+        </tr> <!--Segunda linha-->
+          <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+          </tr>
+
+          <tr class="linha1">  <!---Tercerira Linha-->
+            <td class="dado">A3</td>
+            <td>B3</td>
+            <td>C3</td>
+
+          </tr>
+          <tr><!---Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td class="numero">C4</td>
+          </tr>
+        
+    </table>
+
+    
 </body>
 </html>
