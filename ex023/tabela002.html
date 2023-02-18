@@ -35,7 +35,14 @@
             .num{
                 text-align: right;
             }
-        
+        caption{
+            font-size: 1.6em;
+            font-weight: bolder;
+            text-shadow:1px 1px 0px black ;
+            padding: 5px;
+            color: red;
+            background-color: black;
+        }
 
     </style>
 </head>
@@ -63,11 +70,11 @@
        TR= Linha
  --->
 <table>
-
+  <caption>População das Unidades Federativas</caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col"style="width: 90px;">População</th>
         </tr>
 </thead>
 
@@ -103,7 +110,7 @@
 
 <tfoot>
 <tr>
-    <th>Total de Habitantes</th>
+    <th scope="row">Total de Habitantes</th>
     <td>91.767.571</td>
 </tr>
 </tfoot>
