@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas 005</title>
+      <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+
+        }
+
+        th ,td{
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        .cnome{
+            background-color: blueviolet;
+        }
+
+        .cprof{
+            background-color: aquamarine;
+        }
+      </style>
+
+</head>
+<body>
+    
+    <!----
+        Para usarmo grupo em tabelas usamos a tag <colgrup> e para celecionarmos as colunas <col0>=(coluna) dentro de <col> driamos uma classe. Criamos um col para cada coluna
+            Exemplo 
+            <colgrup>
+                <col class= 'cnome'> 
+                <col class= 'csexo'>
+                <col classe= 'cidade'>
+                <col classe= 'cprof'
+            
+            </colgrup>
+
+            Se quisermos expandir para outra coluna a frente também podemos usar da seguinte maneira, com o span="2".
+
+            Exemplo:
+            
+            <colgrup>
+                    
+                <col class="cgrup" span="3">
+            </colgrup>
+                ------->
+
+    
+    
+    <h1>Exercício de Tabelas 005</h1>
+
+    <caption>Cadastro</caption>
+    
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <td scope="col">Profição</td>
+        
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalismo</td>
+        </tr>
+
+       
+        <td>Claúdio</td>
+        <td>M</td>
+        <td>28</td>
+        <td>Programador</td>
+
+       <tr>
+        <td>Hélio</td>
+        <td>M</td>
+        <td>30</td>
+        <td>Wed Desing</td>
+       </tr>
+
+       <tr>
+        <td>Joana</td>
+        <td>F</td>
+        <td>25</td>
+        <td>TicToker</td>
+       </tr>
+       <tr>
+        <tr>
+            <td>Marcio</td>
+            <td>M</td>
+            <td>20</td>
+            <td>Engenheiro</td>
+            
+        </tr>
+         
+        <tr>
+            <td>Fábiana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Chefe de Cozinha</td>
+        </tr>
+        
+        
+
+       </tr>
+
+    </table>
+</body>
+</html>
