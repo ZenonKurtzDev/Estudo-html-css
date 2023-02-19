@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Respnsivas </title>
+    <style>
+    body{
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    table{
+        border-collapse:collapse ;
+    }
+
+    caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    td , th{
+        border: 2px solid black;
+    }
+
+    tr:nth-child(even){ /*Serve para deixar a tabela zebrada*/
+        background-color: rgb(78, 79, 77);
+    }
+
+    div#container{
+        overflow-x: auto;/* 
+        
+         1Colocar a tabela dentro de uma <div>
+         2Criar um id dentro da <div id="container">
+         3Colocar no css o div#container
+         Depois fazer o seguinte,
+         Exemplo
+        
+         div#container{
+        overflow-x: auto;
+          }
+                 
+         */
+         
+
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium reiciendis eum explicabo nobis aliquam, minus praesentium numquam? Ut dolores natus ducimus cupiditate quis! Totam ullam corrupti perferendis. Aliquam, commodi consectetur!</p>
+<div id="container">
+    
+        <table>
+            <caption>Tabela Responsiva</caption>
+    
+            <thead>
+    
+    
+                <tr>
+                    <th>Produtos  </th>
+                    <th>Jan</th>
+                    <th>Fer</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                     <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+    
+                </tr>
+            </thead>
+    
+    
+              <tbody>
+    
+                <tr>
+                    <td>Tv 40" P</td>
+                    <td>12</td>
+                    <td>20</td>
+                    <td>22</td>
+                    <td>28</td>
+                    <td>23</td>
+                    <td>20</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>28</td>
+                    <td>40</td>
+                    <td>62</td>
+                </tr>
+    
+    
+                <tr>
+                    <td>Camisa</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>29</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>22</td>
+                    <td>30</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>150</td>
+                </tr>
+    
+                <tr>
+                    <td>Alexa</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>29</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>22</td>
+                    <td>30</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>150</td>
+                </tr>
+    
+                <tr>
+                    <td>Jogos</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>29</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>22</td>
+                    <td>30</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>158</td>
+                </tr>
+    
+                <tr>
+                    <td>Briquedos</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>29</td>
+                    <td>45</td>
+                    <td>70</td>
+                    <td>22</td>
+                    <td>30</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>80</td>
+                    <td>100</td>
+                    <td>1500</td>
+                </tr>
+    
+    
+            </tbody>
+    
+    
+    
+    
+    
+        </table>
+</div>
+
+</body>
+</html>
+
