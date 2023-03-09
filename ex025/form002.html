@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+    <p>
+        <label for="iusu">Usuário</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="Nome do usuário" autocomplete="username"><!--Obriga a preencher o formulário-->
+    </p>
+
+<!---
+    Tamanho maximo de caracter
+required minlength="5" maxlength="15"
+
+     Tamanho minimo de caracter
+ required minlength="5"
+
+ Mostra na caixa o que vc quiser escrever
+  placeholder
+
+-->
+
+    <p>
+        <label for="isen">Senha: </label>
+        <input type="password" name="sen" id="isen" required minlength="5" size="20" placeholder="máximo 5 caracter" autocomplete="current-password"><!--Obriga a preencher o formulário-->
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+
+    </p>
+    </form> 
+</body>
+</html>
