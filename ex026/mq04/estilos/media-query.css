@@ -15,6 +15,29 @@ Grandes telas: acima de 1200px
 
 @media print{ /*Impressão*/
 
+   *{
+        font-family: 'Courier New', Courier, monospace;
+}
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    
+    max-width: inherit;{
+        border: 2px solid black ;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.zlk.com';
+        text-decoration: overline;
+        
+    }    
+    ]main h1{
+         
+        text-shadow: nome;
+        color: black;
+
+    }
 }
 
 @media scree and (min-width: 768px) and (max-width: 992px){/*Tablet*/
