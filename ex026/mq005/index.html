@@ -7,9 +7,12 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    
-   <header>
-    <h1>Meu site</h1>
+    <link rel="stylesheet" href="estilos.css">
+  <head>
+    <body onresize="mudouTamanho()">
+        
+        <header>
+            <h1>Meu site</h1>
 
     <span class="material-symbols-outlined" onclick="clickMenu()">
         menu
@@ -23,35 +26,42 @@
             <li><a href="#">Trabalhe Conosco</a></li>
         </ul>
     </menu>
+        </header>
 
-   </header>
-   
-   <main>
-    <article>
+        <main>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nesciunt quidem impedit explicabo doloremque velit esse dicta deserunt nisi. Nesciunt dicta porro quam id nihil cupiditate. Debitis inventore tenetur corrupti.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt sint magnam quia accusamus earum nobis rem totam sit dolores fugiat, inventore accusantium debitis laboriosam recusandae. Doloremque alias officia aspernatur numquam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eligendi quis, debitis, animi consectetur officia nemo minus perspiciatis alias sequi consequuntur nam voluptates adipisci ducimus cumque assumenda, ullam aperiam quo!
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptatibus ipsum exercitationem minus, maxime ut a tempora incidunt cumque doloremque repellendus commodi tenetur suscipit magni velit ducimus impedit odio labore.
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At officiis eveniet numquam odit corrupti debitis dicta perferendis placeat! Blanditiis vero deserunt voluptas, consectetur quisquam illum earum impedit enim amet quasi.</p>
+                    </p>
+                
+            </article>
+            <script>
+                
+                function mudouTamanho(){
+                    if (window.innerWidth >=768){
+                        intens,style.dysplay= 'block'
 
-        <h2>Testando Midia Queries</h2>
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis accusamus eos qui facilis laborum. Sunt temporibus debitis asperiores tempora, dolorem quae, quam optio eaque officia, numquam atque culpa inventore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quis itaque eveniet voluptatem earum repudiandae eum quisquam placeat hic iure tempora quibusdam, incidunt rem deleniti recusandae unde nam iusto consequuntur.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum labore aspernatur, aperiam mollitia illo autem voluptate cupiditate! At in cum impedit voluptates illo exercitationem, non earum totam voluptatum, voluptas perferendis!</p>
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ratione, asperiores aspernatur quasi dolore amet nesciunt in veritatis vel, ab unde, debitis iste quibusdam dolorem atque error similique quas sapiente!</p>
+                    }else{
+                        intens.style.display ='none'
+                    }
 
-    </article>
-   </main>
-   <script>
-    function clickMenu(){
-     if  ( itens.style.display== 'block'){
-        itens.style.display= 'none'
+                }
 
-    }
-     else{
-      intens.style.display= 'blcok'
-}
-    }
-   </script>
-</head>
-<body>
+              
+                function clickMenu(){
+                    if (intens.style.dysplay =='block'){
+                        intens.style.dysplay='none'
+
+                    } else{
+                        intens.style.dysplay='block'
+                    }
+                }
+            </script>
+        </main>
+
+    </body>
     
-</body>
-</html>
+    </html>

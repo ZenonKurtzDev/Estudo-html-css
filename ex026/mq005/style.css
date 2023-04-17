@@ -73,3 +73,7 @@ aticle > p{
     background-color: white;
     color: black;
 }
+
+main{
+    width: 768;
+}
